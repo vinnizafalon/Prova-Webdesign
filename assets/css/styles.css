@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  margin: 0%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-position: right;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.esquerda {
+  float: left;
+}
+
+.direita {
+  float: right;
+}
+
+.centro {
+  float: center;
+}
+
+body {
+  margin: 20px;
+}
+
+.main-login {
+  width: 100vw;
+  height: 100vw;
+}
+
+.center {
+  text-align: center;
+}
+
+.textfield {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #541869;
+  color: rgb(230, 182, 230);
+  font-size: 12pt;
+}
+
+.direitaimage {
+  animation-direction: right;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.Logo-Nova {
+  width: 140px;
+}
+
+.menu {
+  font-family: Lucida Sans ", " Lucida Sans Regular ", " Lucida Grande ", " Lucida Sans Unicode ", Geneva, Verdana, sans-serif";
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu li a {
+  text-decoration: none;
+  color: aqua;
+}/*# sourceMappingURL=styles.css.map */
